@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World", "Hello World\Hello World.csproj", "{C83438C9-141D-4843-99CC-FE7239480DA8}"
 EndProject
@@ -32,6 +32,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursivitate", "Recursivitate\Recursivitate.csproj", "{39A30D39-F4A8-4FEA-AF61-D2EB36FF36C2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secvente", "Secvente\Secvente.csproj", "{E1CCFA2B-CD3F-459D-8EB4-568A0938C2A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subsir", "Subsir\Subsir\Subsir.csproj", "{F04149BD-5CE8-4E6E-86C6-9B18B46EB400}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,8 +101,15 @@ Global
 		{E1CCFA2B-CD3F-459D-8EB4-568A0938C2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1CCFA2B-CD3F-459D-8EB4-568A0938C2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1CCFA2B-CD3F-459D-8EB4-568A0938C2A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F04149BD-5CE8-4E6E-86C6-9B18B46EB400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04149BD-5CE8-4E6E-86C6-9B18B46EB400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04149BD-5CE8-4E6E-86C6-9B18B46EB400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04149BD-5CE8-4E6E-86C6-9B18B46EB400}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B0A4E46-C243-4E1F-94E2-AE35F8C380A8}
 	EndGlobalSection
 EndGlobal
