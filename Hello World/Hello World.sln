@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secvente", "Secvente\Secven
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subsir", "Subsir\Subsir\Subsir.csproj", "{F04149BD-5CE8-4E6E-86C6-9B18B46EB400}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumaDiagonala", "SumaDiagonala\SumaDiagonala\SumaDiagonala.csproj", "{C25EC8A3-1B2E-4C32-8CD3-CD29D62CE211}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{F04149BD-5CE8-4E6E-86C6-9B18B46EB400}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F04149BD-5CE8-4E6E-86C6-9B18B46EB400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F04149BD-5CE8-4E6E-86C6-9B18B46EB400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C25EC8A3-1B2E-4C32-8CD3-CD29D62CE211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C25EC8A3-1B2E-4C32-8CD3-CD29D62CE211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C25EC8A3-1B2E-4C32-8CD3-CD29D62CE211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C25EC8A3-1B2E-4C32-8CD3-CD29D62CE211}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
