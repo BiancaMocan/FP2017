@@ -13,13 +13,19 @@ namespace Subsir
             Console.WriteLine("Numar elemente =");
             int n = int.Parse(Console.ReadLine());
             int[] v = new int[n];
-            for (int i = 0; i < n; i++)
-            {
-                Console.WriteLine("Citire element {0}", i);
-                v[i] = int.Parse(Console.ReadLine());
-            }
+            citire_vector(v);
             subsir(v);
             Console.ReadKey();
+        }
+
+        static void citire_vector(int[] a)
+        {
+            for (int i = 0; i < a.Length; i++)
+            {
+                Console.Write("vect[{0}] = ", i + 1);
+                a[i] = Convert.ToInt32(Console.ReadLine());
+            }
+
         }
 
         private static void subsir(int[] v)
