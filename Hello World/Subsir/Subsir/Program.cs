@@ -36,24 +36,24 @@ namespace Subsir
             {
                 if (v[i] == 0)
                 {
-                    int aux_poz_initiala = i, aux_poz_finala = 0, aux_lung = 0;
-                    Boolean stop = false; int j;
-                    for (j = i + 1; j < v.Length && !stop; j++)
+                    int temp_poz_initiala = i, temp_poz_finala = 0, temp_lung = 0;
+                    Boolean diferit_de_zero = false; int j;
+                    for (j = i + 1; j < v.Length && !diferit_de_zero; j++)
                     {
                         if (v[j] != 0)
                         {
-                            stop = true; aux_poz_finala = j - 1; aux_lung = j - i; i = j;
+                            diferit_de_zero = true; temp_poz_finala = j - 1; temp_lung = j - i; i = j;
                         }
                     }
-                    if (j == v.Length && !stop)
+                    if (j == v.Length && !diferit_de_zero)
                     {
-                        aux_poz_finala = j - 1; aux_lung = j - i;
+                        temp_poz_finala = j - 1; temp_lung = j - i;i = j;
                     }
-                    if (aux_lung > lung_max)
+                    if (temp_lung > lung_max)
                     {
-                        lung_max = aux_lung;
-                        poz_initiala = aux_poz_initiala;
-                        poz_finala = aux_poz_finala;
+                        lung_max = temp_lung;
+                        poz_initiala = temp_poz_initiala;
+                        poz_finala = temp_poz_finala;
                     }
                 }
                 i++;
